@@ -1,5 +1,5 @@
 
-### Random Guessing Game
+# Random Guessing Game
 
 ```mermaid
 flowchart TD
