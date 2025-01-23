@@ -18,14 +18,14 @@ CUSTOMER {
 }
 SALE {
   integer productID FK
-  integer amount
+  integer stockLevel FK, PK
   integer customerID FK
   integer saleID FK, PK
 }
 INVENTORY {
   integer saleID PK, FK
   integer productID PK
-  integer stockLevel PK
+  integer stockLevel PK, FK
 }
 
 PRODUCT ||--o{ SALE : includes
@@ -38,7 +38,7 @@ CUSTOMER ||--o{ SALE : makes
 
 **CUSTOMER** - Tracks customer IDs, their names, their age group, and their phone number
 
-**SALE** - Tracks Nike shoe model sales, the amount, which customer made a purchase, and a sale identifier for the inventory
+**SALE** - Tracks Nike shoe model sales, the stock level, which customer made a purchase, and a sale identifier for the inventory
   
 **INVENTORY** - Tracks the sale identifier for profit, tracks the item(s) sold, and tracks the stock level
   
