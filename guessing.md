@@ -1,5 +1,3 @@
-# mermaid
-Mermaid guessing game flowchart for CTI-110
 
 ### Random Guessing Game
 
