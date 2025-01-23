@@ -13,7 +13,7 @@ flowchart TD
 
     DisplayError -- Re-guess --> UserGuess
     CheckGuess --> CorrectGuess{Is Guess Correct?}
-    CorrectGuess -- Yes --> DisplaySuccess[Correct!]
+    CorrectGuess -- Yes --> DisplaySuccess{{Correct!}}
     DisplaySuccess --> PlayAgain{Play Again?}
 
     CheckGuess --> TooHigh{Is Guess Too High?}
