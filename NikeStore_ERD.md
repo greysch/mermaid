@@ -18,7 +18,7 @@ CUSTOMER {
 }
 SALE {
   integer productID FK
-  integer amount FK
+  integer amount
   integer customerID FK
   integer saleID FK, PK
 }
