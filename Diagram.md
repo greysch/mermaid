@@ -11,8 +11,7 @@ flowchart TD
     Fert --> Fed{Are Nutrients Enough?}
     Fed -- Yes --> Grow
     Fed -- No --> Fert
-    Sun --> Dim{Is there enough light?}
+    Sun --> Dim{Is There Enough Light?}
     Dim -- Yes --> Grow
     Dim -- No --> Sun
-
 ```
