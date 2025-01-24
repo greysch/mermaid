@@ -28,4 +28,6 @@ flowchart TD
 
 6. **Are Nutrients Enough?:** A check to see if the plant is getting enough nutrients, if not, indicate the need to feed the plant more nutrients
 
-7. **Plant Growth:** The plant has all necessary conditions met and can grow healthily 
+7. **Is There Enough Light?:** A check to see if the plant is getting enough light, if not, indicate the need to provide more light to the plant
+
+8. **Plant Growth:** The plant has all necessary conditions met and can grow healthily 
