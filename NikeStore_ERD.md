@@ -34,13 +34,13 @@ CUSTOMER ||--o{ SALE : makes
 ```
 
 ## ERD Description
-**PRODUCT** - Tracks Nike shoe models, their categories, and prices
+1. **PRODUCT** - Tracks Nike shoe models, their categories, and prices
 
-**CUSTOMER** - Tracks customer IDs, their names, their age group, and their phone number
+2. **CUSTOMER** - Tracks customer IDs, their names, their age group, and their phone number
 
-**SALE** - Tracks Nike shoe model sales, the stock level, which customer made a purchase, and a sale identifier for the inventory
+3. **SALE** - Tracks Nike shoe model sales, the stock level, which customer made a purchase, and a sale identifier for the inventory
   
-**INVENTORY** - Tracks the sale identifier for profit, tracks the item(s) sold, and tracks the stock level
+4. **INVENTORY** - Tracks the sale identifier for profit, tracks the item(s) sold, and tracks the stock level
   
 
 ### Relationships
