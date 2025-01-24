@@ -1,4 +1,4 @@
-# Nike Shoe Store Entity-Relationship Diagram
+## Nike Shoe Store Entity-Relationship Diagram
 
 ```mermaid
 erDiagram
