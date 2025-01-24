@@ -39,7 +39,7 @@ CUSTOMER ||--o{ SALE : makes
 2. **CUSTOMER** - Tracks customer IDs, their names, their age group, and their phone number
 
 3. **SALE** - Tracks Nike shoe model sales, the stock level, which customer made a purchase, and a sale identifier for the inventory
-  
+   
 4. **INVENTORY** - Tracks the sale identifier for profit, tracks the item(s) sold, and tracks the stock level
   
 
