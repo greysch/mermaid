@@ -1,4 +1,4 @@
-## Choose my own adventure diagram
+## Choose My Own Adventure Diagram
 
 ```mermaid
 flowchart TD
